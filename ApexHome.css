@@ -1,0 +1,238 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .btn {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    transition: 0.6s;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0px 5px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #fff;
+    color: #fff;
+    box-shadow: inset 140px 1px black;
+  }
+  .wrap {
+    width: 80%;
+    margin: auto;
+  }
+  p {
+    margin: 0px;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  
+  /* ============== */
+  header {
+    background: #f5f5f5;
+    padding: 8px 0px;
+    text-align: right;
+  }
+  .wrap.hed-wrap ul {
+  }
+  
+  .wrap.hed-wrap ul li {
+    display: inline-block;
+  }
+  .wrap.hed-wrap ul li a {
+    color: #000000;
+    font-size: 11px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    font-weight: 600;
+  }
+  .wrap.hed-wrap ul li a:before {
+    position: absolute;
+    content: "";
+    background: #757575;
+    width: 1.5px;
+    height: 13px;
+    left: -14px;
+  }
+  li.a1 a:before {
+    display: none;
+  }
+  .shop-box p {
+    font-size: 35px;
+    margin: 35px 0px;
+  }
+  /* ================= */
+  nav {
+    background-image: url(./img/a4b23aab-0f31-46a8-9aac-b833ab94c5b5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 260px;
+  }
+  .nav-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .n-list ul li {
+    display: inline-block;
+  }
+  .n-list {
+    display: inline-block;
+  }
+  .pat-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .n-list ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16.5px;
+    margin-left: 20px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    font-weight: 400;
+  }
+  .n-list ul li a:hover {
+    border-bottom: 1px solid #000;
+  }
+  .socil-icon a {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .wrap-22:hover ul li a {
+    color: #000;
+  }
+  .wrap-22 {
+    transition: 0.3s;
+  }
+  .wrap-22:hover {
+    background: #fff;
+  }
+  .wrap-22:hover a {
+    color: #000;
+  }
+  .shop-box {
+    text-align: center;
+  }
+  
+  /* ========== */
+  
+  .s1 {
+    background: #191919;
+    height: 625px;
+    position: relative;
+  }
+  .s-item-text-box h1 {
+    text-transform: capitalize;
+    margin: 0px;
+    font-size: 38px;
+  }
+  .s-item-text-box {
+    padding-top: 55px;
+  }
+  .s-item-text-box p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .s-btn {
+    margin-top: 60px;
+  }
+  .s-btn button {
+    width: 120px;
+    padding: 7px 0px;
+  }
+  .ov-img {
+    position: absolute;
+    left: 193px;
+    bottom: -60px;
+  }
+  .ov-vdo {
+    position: absolute;
+    right: 105px;
+    top: -30px;
+  }
+  /* 2 Section */
+  section.s2 {
+    padding-top: 130px;
+    padding-bottom: 35px;
+  }
+  
+      /* .swiper-wrapper {
+      width: 100%;
+      border: 1px solid red;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .swiper-wrapper span {
+      display: inline-block;
+      animation: marquee 10s linear infinite;
+    }
+    @keyframes marquee {
+      0% {
+        transform: translateX(100vw);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    } */
+  .swiper-slide.slid-1-box {
+    width: 24%;
+  }
+  .s-1-img-box img {
+    width: 100%;
+  }
+  .s-1-text-b {
+    padding-left: 15px;
+    color: #000;
+  }
+  .s-1-text-b span {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .s-1-text-b p {
+    font-size: 13px;
+    color: #333;
+  }
+  .s-1-text-b a {
+    font-size: 13px;
+    color: #333;
+  }
+  .s-1-text-b a:hover {
+    color: #959595;
+  }
+  .wrap slider-wraper {
+    display: flex;
+  }
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+  }
